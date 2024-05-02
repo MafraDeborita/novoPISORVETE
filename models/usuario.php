@@ -110,15 +110,15 @@ class Usuario
         $stmt->bindValue(':email', $email);
         $stmt->execute();
         $usuario = $stmt->fetch();
-
-        if($usuario['id_usuario'] && password_verify($senha, $usuario['senha'])){
+       
+        if($usuario['id_usuarios'] && password_verify($senha, $usuario['senha'])){
             session_start();
-            $_SESSION['id_usuario'] = $usuario['id_usuario'];
+            $_SESSION['id_usuario'] = $usuario['id_usuarios'];
             $_SESSION['nome'] = $usuario['nome'];
             $_SESSION['email'] = $usuario['email'];
             $_SESSION['foto_usuario'] = $usuario['foto_usuario'];
 
-            header('Location: /novoPISORVETE/index.php');
+            header('Location: /novoPISORVETE/views/index.php');
         } else {
             header('Location: /novoPISORVETE/views/login.php');
         }
