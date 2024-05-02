@@ -17,7 +17,7 @@
             <ul>
                 <a href="/novoPISORVETE/views/index.php"><li>Início</li></a>
                 <a href="#"><li>Sobre</li></a>
-                <a href="#produtos"><li>Produtos</li></a>
+                <a href="#campeoes"><li>Produtos</li></a>
                 <?php if (!isset($_SESSION['id_usuario'])) : ?>
                 <a href="/novoPISORVETE/views/login.php"><li>login</li></a> <?php else : ?>
                     <a class="login-btn" href="/novoPISORVETE/controllers/logout.php" style="color: #8c52ff">Sair</a>

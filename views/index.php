@@ -87,7 +87,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
   <div id="campeoes">
     <h2>Os Campeões de Venda</h2>
   </div>
-  <session id="produtos"><a href="">
+  <!-- <session id="produtos"><a href=""> -->
       <div id="maisvendidos">
         <div id="card1">
           <img src="../img/sorvete2.webp" alt="Avatar" width="250px" height="300px">
@@ -180,8 +180,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
             <p>R$ 9,99</p>
           </div>
         </div>
-    </a>
-  </session>
+    <!-- </a>
+  </session> -->
   </div>
 
 </main>
