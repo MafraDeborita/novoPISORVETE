@@ -1,0 +1,42 @@
+.header {
+    background-color: rgb(37, 177, 33);
+    justify-content: space-evenly;
+    display: flex;
+    /* margin-bottom: 50px; */
+    align-items: center;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 3px  ;
+    
+}
+
+@media only screen and (min-width: 481px) {
+
+    .header {
+        background-color: rgb(48, 40, 158);
+        justify-content: space-evenly;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+
+    h1 {
+        font-family: Georgia, serif;
+        font-size: 1, 5em;
+        /* 24px / 16px = 1,5em */
+    }
+
+
+
+
+
+}

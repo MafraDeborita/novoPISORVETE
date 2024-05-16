@@ -88,7 +88,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
     <h2>Os Campeões de Venda</h2>
   </div>
   <!-- <session id="produtos"><a href=""> -->
-      <div id="maisvendidos">
+      <div class="maisvendidos">
         <div id="card1">
           <img src="../img/sorvete2.webp" alt="Avatar" width="250px" height="300px">
           <div class="container">
@@ -122,7 +122,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
 
       </div>
 
-      <div id="maisvendidos">
+      <div class="maisvendidos">
         <div id="card1">
           <img src="../img/sorvete3.jpg" alt="Avatar" width="250px" height="300px">
           <div class="container">
@@ -156,7 +156,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
 
       </div>
 
-      <div id="maisvendidos">
+      <div class="maisvendidos">
         <div id="card1">
           <img src="../img/sorvete3.jpg" alt="Avatar" width="250px" height="300px">
           <div class="container">
@@ -193,7 +193,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
 
 
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/rodape.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php";
 ?>
 </body>
 

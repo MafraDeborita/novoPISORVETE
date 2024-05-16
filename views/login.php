@@ -31,7 +31,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
       <a href="/novoPISORVETE/views/index.php">
         <button type="submit" class="btn btn-primary">Entrar</button></a>
       <?php else : ?>
-        <a class="login-btn" href="/novoPISORVETE/controllers/logout_controller.php" style="color: #8c52ff">Sair</a>
+        <a class="login-btn" href="/novoPISORVETE/controllers/logout.php" style="color: #8c52ff">Sair</a>
       <?php endif; ?>
       
 
