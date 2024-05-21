@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
 ?>
 
 <div id="pagamento01">
-    <div id="pg1">
+    <!-- <div id="pg1">
         <h1>Identifique-se</h1>
         <p>Utilizaremos seu e-mail para: Identificar seu perfil, histórico de compra, notificação de pedidos e carrinho de compras.</p>
 
@@ -24,7 +24,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
         </form>
 
 
-    </div>
+    </div> -->
     <div id="pg01">
         <h3>DISPONIVEL APENAS PARA RETIRADA</h3>
         <img src="../img/cartao.jpg" alt="cartao" width="480px">
@@ -39,7 +39,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
                 <select class="produto-input" name="produto" id="produto">
                     <option value="Sorvete Casquinha- R$2,99">Sorvete Casquinha- R$2,99</option>
                     <option value="Sorvete Porte - R$14,99">Sorvete Porte - R$14,99</option>
-                    <option value="Sorvete Peso - R$5,99">Sorvete Peso - R$5,99</option>
+                    <option value="Sorvete Peso - R$5,99">Sorvete Peso - R$9,99</option>
                 </select>
 
             </label>
@@ -73,12 +73,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
             <div class="divisoria"></div>
 
             <p class="carrinho__total">
-                Total: <span class="texto-azul" id="valor-total">R$2,99</span>
+                Total: <span class="texto-azul" id="valor-total">R$</span>
             </p>
         </section>
     </div>
 </div>
-</div>
+<!-- </div> -->
 
 <!-- OBS: O BOTÃO LIMPAR NAO ESTA FUNCIONANDO NO JS  -->
 

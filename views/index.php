@@ -92,7 +92,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/novoPISORVETE/templates/cabecalho.php
         <div id="card1">
           <img src="../img/sorvete2.webp" alt="Avatar" width="250px" height="300px">
           <div class="container">
-            <a href="/views/produto01.php">
+            <a href="produto01.php">
               <h4><b>Chocolate Amargo</b></h4>
               <p>R$ 9,99</p>
             </a>
